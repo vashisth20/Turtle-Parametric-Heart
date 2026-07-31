@@ -1,0 +1,10 @@
+# No pip packages required for this script.
+# Requires: Python 3.8+ with Tkinter (Tk 8.6+).
+# Recommended: install Python via pyenv linked to Homebrew tcl-tk (macOS).
+# Example (macOS):
+#   brew install pyenv tcl-tk
+#   export LDFLAGS="-L$(brew --prefix tcl-tk)/lib" \
+#          CPPFLAGS="-I$(brew --prefix tcl-tk)/include" \
+#          PKG_CONFIG_PATH="$(brew --prefix tcl-tk)/lib/pkgconfig"
+#   PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install 3.14.6
+# Then run: python run.py
